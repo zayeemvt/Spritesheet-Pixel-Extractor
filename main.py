@@ -47,7 +47,6 @@ if __name__ == "__main__":
     frame_width = 16
     frame_height = 16
 
-    # img_width, img_height = exportImageRGBtoBinary(img_filename, out_filename)
     img_width, img_height = exportImageRGBtoBinary(img_filename, out_filename)
 
     drawImageFromBinary(out_filename, img_width, img_height)
